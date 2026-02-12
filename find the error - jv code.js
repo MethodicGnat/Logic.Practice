@@ -6,7 +6,7 @@
 //odd or even
 let num1 = Number(prompt("Enter a number:"));
 
-if (nums % 2 === 0) {
+if (num1 % 2 === 0) { // changed from nums % 2 === 0 to num1 % 2 === 0
     console.log("The number is even");
 } else {
     console.log("The number is odd");
@@ -27,7 +27,7 @@ let nums = Number(prompt("Enter a number:"));
 
 if (nums > 0) {
     console.log("The number is positive");
-} else if (num < 0) {
+} else if (nums < 0) {
     console.log("The number is negative");
 } else {
     console.log("The number is zero");
@@ -39,7 +39,7 @@ if (nums > 0) {
 //c. Write a program in Python that calculates the factorial of a given number using a loop.
 
 //uses for loop
-for (let i = 1; i < 10; i++) {
+for (let i = 1; i <= 10; i++) {
     console.log(i);
 }
 

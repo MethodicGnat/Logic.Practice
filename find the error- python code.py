@@ -7,7 +7,7 @@
 #odd or even
 num = int(input("Enter a number: "))
 
-if num % 2 == 1:
+if num % 2 == 0: # changed expression from num%2==1 to this
     print("The number is even")
 else:
     print("The number is odd")
@@ -15,7 +15,7 @@ else:
 # voting eligibility
 age = int(input("Enter your age: "))
 
-if age > 18:
+if age >= 18: # made it so that when you're 18 AND above, you can vote
     print("You are eligible to vote")
 else:
     print("You are not eligible to vote")
@@ -23,7 +23,7 @@ else:
 # check number
 num = int(input("Enter a number: "))
 
-if num >= 0:
+if num > 0: # changed the comparison operator from >= to >
     print("The number is positive")
 elif num < 0:
     print("The number is negative")
